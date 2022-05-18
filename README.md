@@ -3,7 +3,7 @@
 ![badge](https://img.shields.io/badge/license-MIT-blue)
 
 ## Description
-My portfolio transferred to react, using a single page 
+Create a single page portfolio, using react. React allows users to create single page apps that can hold and render lots of content fast and easy.
 
 ## Table of Contents
 - [Description](#description) 
