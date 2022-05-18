@@ -1,0 +1,10 @@
+.container {
+  padding: 3%;
+  margin: 0%;
+  min-width: 100%;
+  background-color: #a1a1a1;
+}
+
+.contact-form {
+  width: 200%;
+}
