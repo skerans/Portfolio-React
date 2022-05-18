@@ -1,24 +1,86 @@
 import React from 'react';
+import '../../styles/Portfolio.css'
+import img1 from '../../images/img1.png'
+import img2 from '../../images/img2.jpeg'
+import img3 from '../../images/img3.jpeg'
+import img4 from '../../images/img4.jpeg'
+import img5 from '../../images/img5.jpeg'
+
+
+
 
 export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+
+      <section id="portfolio" class="project-container">
+      <div class="project-first">
+        <figure>
+          <a href="https://github.com/skerans/Mapped-event-tracker">
+            <img src={img1} alt="placeholder image"/>
+            <figcaption>Mapped Event Tracker</figcaption>
+          </a>
+        </figure>
+      </div>
+      
+      <div class="project">
+        <figure>
+          <a href="https://github.com/skerans/Weather-app-week6">
+            <img src={img2} alt="placeholder image"/>
+            <figcaption>Weather app</figcaption>
+          </a>  
+        </figure>
+      </div>
+
+      <div class="project">
+        <figure>
+          <a href="https://github.com/skerans/QuizGame">
+            <img src={img3} alt="placeholder image"/>
+            <figcaption>Quiz game app</figcaption>
+          </a>
+        </figure>
+      </div>
+
+      <div class="project">
+        <figure>
+          <a href="#">
+            <img src={img4} alt="placeholder image"/>
+            <figcaption>fourth Project</figcaption>
+          </a>
+        </figure>
+      </div>
+
+      <div class="project">
+        <figure>
+          <a href="#">
+            <img src={img5} alt="placeholder image"/>
+            <figcaption>fifth Project</figcaption>
+          </a>
+        </figure>
+    </div> 
+
+    </section>
+
+
+
+
     </div>
   );
 }
+
+{/* <a className='project' href='https://github.com/skerans/NextGen-event-tracker' target='_blank'  rel="noreferrer" alt='first project demo'>
+<img className='project1-img' src={img1} />
+<figcaption>Natural Event Tracker</figcaption>
+</a> */}
+
+// <div key={index} className="portfolio-card" onMouseEnter={() => setHoverActive(index)} onMouseLeave={() => setHoverActive(10)}>
+//                         <img src={element.imgPath} className="portfolio-img" />
+//                         <div className="portfolio-title">
+//                             <a className={hoverActive === index ? "deployed-link hover-active" : "deployed-link"} href={element.deployedPath}>
+//                                 {element.title}
+//                             </a>
+//                             <a className={hoverActive === index ? "github-icon bi bi-github hover-active" : "github-icon bi bi-github"} href={element.githubPath}></a>
+//                         </div>
+//                         <p className={hoverActive === index ? "tech-used hover-active" : "tech-used"}>{element.tech}</p>
+//                     </div>

@@ -1,0 +1,42 @@
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-container a img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+/*Add effects to the project images on hover*/
+.project-container a img:hover {
+  transition: .3s;
+  opacity: .3;
+  box-shadow: 0 0 30px 20px #000000;
+}
+
+.project {
+  flex: 1 0 45%;
+  padding: 1em;
+  margin: 1% 1%;
+  text-align: center;
+  justify-content: center;
+}
+
+.project-first {
+  flex: 1 0 100%;
+  padding: 1em;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+figcaption {
+  font-size: 150%;
+  background-color: var(--color-five);
+  color: var(--color-one);
+}
