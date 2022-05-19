@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <p>Check out my <a href='../../../public/resume/Spencer-Kerans-Resume.pdf' download>Resume</a></p>
+      <p>Check out my resume <a href='./resume/Spencer-Kerans-Resume.pdf' download>here</a></p>
       <h3>Coding Experience</h3>
       <ul>
         <li>HTML</li>
