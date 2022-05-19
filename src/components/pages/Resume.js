@@ -1,10 +1,12 @@
 import React from 'react';
 
+
+
 export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <p>Check out my <span>Resume</span></p>
+      <p>Check out my <a href='../../../public/resume/Spencer-Kerans-Resume.pdf' download>Resume</a></p>
       <h3>Coding Experience</h3>
       <ul>
         <li>HTML</li>
